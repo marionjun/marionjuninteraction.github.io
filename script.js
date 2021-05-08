@@ -44,6 +44,50 @@ document.addEventListener("mouseenter", event=>{
   });
 });
 
+// window.addEventListener("scroll", function() {
+// 	show_cursor.reverse();
+// });
+// 		var work_section = document.querySelector('.work_section');
+// 		work_section.addEventListener('mousemove', e => {
+// 		gsap.to(".cursor", {
+// 			x: e.pageX - 60,
+// 			y: e.pageY - 60,
+// 			ease: Power4.easeOut
+// 		});
+// 	});
+		
+//     // gsap.set(".cursor", {
+//     //     autoAlpha: 0,
+//     //     scale: 0.8
+//     // });
+    
+    
+
+// let work_button = document.querySelector('.work_button');
+
+
+// work_button.addEventListener('click', function() {
+// 	// event.stopPropagation();
+// 	gsap.to(window, {
+// 		duration: 0.5,
+// 		scrollTo: '.work_section',
+// 		ease: Circ.easeOut
+// 	});
+// });
+
+
+function scrollToStudio() {
+    window.scroll({top: 1050, left: 0, behavior: 'smooth'});
+  }
+
+  function scrollToLab() {
+    window.scroll({top: 2030, left: 0, behavior: 'smooth'});
+  }
+
+  function scrollToTop() {
+    window.scroll({top: 0, left: 0, behavior: 'smooth'});
+  }
+
 
 
 

@@ -169,6 +169,7 @@ font-family: "Haptic Regular";
 	height: auto;
     margin-top: 60rem;
     padding-top: 7rem;
+    padding-bottom: 15rem;
     background-color: #1f1fec;
 }
 
@@ -203,7 +204,7 @@ font-family: "Haptic Regular";
 	line-height: 126px;
 	padding-bottom: 25px;
 	margin-top: -25px;
-	pointer-events: none;
+	
 }
 
 .work_org {
@@ -240,3 +241,22 @@ font-family: "Haptic Regular";
 	overflow: hidden;
 	margin-top: -10px;
 }
+
+h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    margin-top: 12rem;   
+    height: 0px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+a:visited {
+    color: white;
+  }
